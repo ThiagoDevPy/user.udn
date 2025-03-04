@@ -1,0 +1,32 @@
+# Activa el motor de reescritura
+
+php_value unload:max_filesize 30M
+php_flag short_open_tag on
+DirectoryIndex index.php
+
+
+RewriteEngine On
+
+# Bloquea el acceso directo a las URLs que contienen "vistas"
+RewriteCond %{THE_REQUEST} /vistas/ [NC]
+RewriteRule ^ - [F]
+
+# Redirige sin "vistas" en la URL
+RewriteRule ^login$ /vistas/login.php [L]
+RewriteRule ^home$ /vistas/udn.php [L]
+RewriteRule ^eventos$ /vistas/eventos.php [L]
+RewriteRule ^camara$ /vistas/camara.php [L]
+RewriteRule ^guardarexito$ /vistas/guardarexito.php [L]
+RewriteRule ^guardarmensaje$ /vistas/guardarmensaje.php [L]
+RewriteRule ^obsoleto$ /vistas/obsoleto.php [L]
+RewriteRule ^cuenta /vistas/cuenta.php [L]
+RewriteRule ^certificado /vistas/certificado.php [L]
+
+RewriteRule ^scripts/evento.js$ /vistas/scripts/evento.js [L]
+RewriteRule ^scripts/editarci.js$ /vistas/scripts/editarci.js [L]
+RewriteRule ^scripts/eventoasis.js$ /vistas/scripts/eventoasis.js [L]
+RewriteRule ^scripts/buscarci.js$ /vistas/scripts/buscarci.js [L]
+
+
+
+

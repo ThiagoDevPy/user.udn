@@ -1,0 +1,50 @@
+body {
+    background-color: #f8f9fa;
+    /* Color de fondo del body */
+}
+
+.bg-header {
+    background-color: #007bff;
+    /* Color azul para el header */
+}
+
+.bg-footer {
+    background-color: #f0f0f0af;
+}
+.navbar {
+    padding: 0;
+     border: none;
+     margin: 0 auto; /* Centra el ul */
+     display: flex; /* Usar flexbox */
+     justify-content: center; /* C
+    /* Para mantener el botón a la izquierda */
+}
+
+.navbar-toggler {
+     border: none;
+     padding: 0;
+     margin: 0;
+    /* Cambia el borde a blanco */
+}
+
+.navbar-toggler-iconn {
+    height: 40px;
+    width: 40px;
+    /* Cambia el color del icono de hamburguesa a blanco */
+}
+
+.nav-link {
+    color: white;
+    /* Color del texto de los enlaces */
+}
+
+.nav-link:hover {
+    color: #ccc;
+    /* Color al pasar el mouse */
+}
+
+.logo {
+    max-width: 150px;
+    /* Ajusta el tamaño del logo */
+    height: auto;
+}
