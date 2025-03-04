@@ -8,7 +8,7 @@ if (isset($_SESSION['evento_id'])) {
 // Verificar si el usuario está autenticado
 if (!isset($_SESSION['user_id'])) {
     // Redirigir al usuario a la página de inicio de sesión si no está autenticado
-    header('Location: /login'); // Cambia 'login.html' por el nombre de tu página de inicio de sesión
+    header('Location: login.php'); // Cambia 'login.html' por el nombre de tu página de inicio de sesión
     exit(); // Asegúrate de salir del script después de redirigir
 
 }
@@ -90,12 +90,12 @@ if (!isset($_SESSION['user_id'])) {
 <header class="bg-header py-3">
     <div class="container">
         <h1 class="text-center text-white">
-            <a href="/home"><img src="../img/uninorte-logo.png" alt="" class="logo" /></a>
+            <a href="udn.php"><img src="../img/uninorte-logo.png" alt="" class="logo" /></a>
         </h1>
     </div>
 
    
-     <nav class="navbar navbar-expand-lg bg-header">
+    <nav class="navbar navbar-expand-lg bg-header">
             <div class="container">
                 <button class="navbar-toggler me-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-iconn"><img class="navbar-toggler-iconn" src="../img/icons8-menú-64.png" alt=""></span>
@@ -103,13 +103,13 @@ if (!isset($_SESSION['user_id'])) {
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav"> <!-- Añade mx-auto aquí -->
                         <li class="nav-item">
-                            <a class="nav-link" href="/home">Inicio</a>
+                            <a class="nav-link" href="udn.php">Inicio</a>
                         </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="/cuenta">Cuenta</a>
+                            <a class="nav-link" href="cuenta.php">Cuenta</a>
                         </li>
                          <li class="nav-item">
-                            <a class="nav-link" href="/certificado">Links de Certificados Antiguos</a>
+                            <a class="nav-link" href="certificado.php">Links de Certificados Antiguos</a>
                         </li>
                        
                         <li class="nav-item">
@@ -147,7 +147,7 @@ if (!isset($_SESSION['user_id'])) {
         <div class="row">
             <div class="d-flex align-items-center justify-content-center">
                 <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="img/icono.ico" aria-label="Bootstrap">
-                    <img src="img/icono.ico" class="img-thumbnail" alt="...">
+                    <img src="../img/icono.ico" class="img-thumbnail" alt="...">
                 </a>
                 
             </div>
@@ -188,7 +188,7 @@ if (!isset($_SESSION['user_id'])) {
 </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-    <script src="scripts/buscarci.js"></script>
+    <script src="../scripts/buscarci.js"></script>
 
 
     <script>
@@ -222,7 +222,7 @@ if (!isset($_SESSION['user_id'])) {
         });
     </script>
 
-    <script src="/scripts/eventoasis.js"></script>
+    <script src="scripts/eventoasis.js"></script>
 </body>
 
 </html>

@@ -87,12 +87,11 @@ if (!isset($_SESSION['user_id'])) {
 <header class="bg-header py-3">
         <div class="container">
             <h1 class="text-center text-white">
-                <a href="/home"><img src="../img/Logos-uninorte-05-1.png" alt="" class="logo" /></a>
+                <a href="udn.php"><img src="../img/uninorte-logo.png" alt="" class="logo" /></a>
             </h1>
         </div>
 
-      
-         <nav class="navbar navbar-expand-lg bg-header">
+        <nav class="navbar navbar-expand-lg bg-header">
             <div class="container">
                 <button class="navbar-toggler me-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-iconn"><img class="navbar-toggler-iconn" src="../img/icons8-menú-64.png" alt=""></span>
@@ -100,13 +99,13 @@ if (!isset($_SESSION['user_id'])) {
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav"> <!-- Añade mx-auto aquí -->
                         <li class="nav-item">
-                            <a class="nav-link" href="/home">Inicio</a>
+                            <a class="nav-link" href="udn.php">Inicio</a>
                         </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="/cuenta">Cuenta</a>
+                            <a class="nav-link" href="cuenta.php">Cuenta</a>
                         </li>
                          <li class="nav-item">
-                            <a class="nav-link" href="/certificado">Links de Certificados Antiguos</a>
+                            <a class="nav-link" href="certificado.php">Links de Certificados Antiguos</a>
                         </li>
                        
                         <li class="nav-item">
@@ -130,7 +129,7 @@ if (!isset($_SESSION['user_id'])) {
                                 </div>
                                 <div class="card-body text-center">
                                     <p class="lead">El codigo QR que has utilizado ya ha expirado, por favor acercate en la mesa para escanear el QR actualizado.</p>
-                                    <a href="/camara" class="btn btn-primary">Volver a Escanear</a>
+                                    <a href="camara.php" class="btn btn-primary">Volver a Escanear</a>
                                 </div>
                             </div>
                         </div>

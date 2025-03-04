@@ -266,8 +266,8 @@ if (isset($_SESSION['evento_id'])) {
     <div class="container py-5">
         <div class="row">
             <div class="d-flex align-items-center justify-content-center">
-                <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="img/icono.ico" aria-label="Bootstrap">
-                    <img src="img/icono.ico" class="img-thumbnail" alt="...">
+                <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none"  aria-label="Bootstrap">
+                    <img src="../img/icono.ico" class="img-thumbnail" alt="...">
                 </a>
                 
             </div>
@@ -310,7 +310,7 @@ if (isset($_SESSION['evento_id'])) {
     <!-- Cargar los scripts al final para mejorar rendimiento -->
     <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-    <script defer src="/scripts/buscarci.js"></script>
+    <script defer src="scripts/buscarci.js"></script>
 </body>
-
+ 
 </html>

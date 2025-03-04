@@ -71,7 +71,7 @@ if (isset($_GET['id'])) {
         }
     } else {
         
-        header("Location: /obsoleto");
+        header("Location: ../vistas/obsoleto.php");
     }
 
 

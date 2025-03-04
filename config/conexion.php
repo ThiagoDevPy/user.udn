@@ -1,10 +1,10 @@
 <?php
 include "database.php";
 // Configuración de la base de datos
-$host = 'junction.proxy.rlwy.net';
-$port = '29203';
+$host = 'ovh1.clusters.zeabur.com';
+$port = '31468';
 $user = 'root';
-$pass = 'ECNcZDwDbjMJQXAkWZJubijaljQyjqlh';
+$pass = 'c5T2O4Ev7GN8XuDKCQ6UJMRey1q309FS';
 $dbname = 'udn';
 
 

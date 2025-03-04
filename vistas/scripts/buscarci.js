@@ -139,7 +139,7 @@ function login() {
                 console.log(xhr.responseText);
                var response = JSON.parse(xhr.responseText);
                 if (response.success) {
-                    window.location.href = 'home'; // Redirigir al dashboard
+                    window.location.href = 'udn.php'; // Redirigir al dashboard
                 } else {
                     alert("Datos Incorrectos");
                 }
