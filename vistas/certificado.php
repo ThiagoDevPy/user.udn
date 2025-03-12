@@ -20,8 +20,8 @@ class Conne {
         define('SERVER', 'ovh1.clusters.zeabur.com');
         define('DB_NAME', 'udn');
         define('USER', 'root');
-        define('PASSWORD', 'c5T2O4Ev7GN8XuDKCQ6UJMRey1q309FS');
-        define('PORT', '31468');  // Puerto definido
+        define('PASSWORD', 'fOxvR4c9TM80NIqbHm2p3QFDiV15aj67');
+        define('PORT', '32473');  // Puerto definido
 
         $options = array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8');
 

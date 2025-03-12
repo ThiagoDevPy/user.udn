@@ -2,7 +2,7 @@
 
     <!-- Página de login -->
     <url>
-        <loc>https://asistenciauninorte.com/login</loc>
+        <loc>https://asistenciauninorte.com/vistas/login.php</loc>
         <lastmod>2024-11-15</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
