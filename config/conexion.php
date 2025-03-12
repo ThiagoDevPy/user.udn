@@ -2,9 +2,9 @@
 include "database.php";
 // Configuración de la base de datos
 $host = 'ovh1.clusters.zeabur.com';
-$port = '32393';
+$port = '32473';
 $user = 'root';
-$pass = '2vYB3Gr7b4chgxdil685Iyz90FW1OQea';
+$pass = 'fOxvR4c9TM80NIqbHm2p3QFDiV15aj67';
 $dbname = 'udn';
 
 
