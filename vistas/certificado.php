@@ -19,7 +19,7 @@ class Conne {
     public static function connect() {
         define('SERVER', 'udn.czkek0iasari.sa-east-1.rds.amazonaws.com');
         define('DB_NAME', 'udn');
-        define('USER', 'root');
+        define('USER', 'admin');
         define('PASSWORD', 'Thiago2002');
         define('PORT', '3306');  // Puerto definido
 
