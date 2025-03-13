@@ -1,10 +1,10 @@
 <?php
 include "database.php";
 // Configuración de la base de datos
-$host = 'ovh1.clusters.zeabur.com';
-$port = '31134';
-$user = 'root';
-$pass = '4DjB2QiY6pUtyK9x0MJ1IeA8GcT5O7n3';
+$host = 'udn.czkek0iasari.sa-east-1.rds.amazonaws.com';
+$port = '3306';
+$user = 'admin';
+$pass = 'Thiago2002';
 $dbname = 'udn';
 
 

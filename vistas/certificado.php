@@ -17,11 +17,11 @@ if (!isset($_SESSION['user_id'])) {
 // Conectar a la base de datos
 class Conne {
     public static function connect() {
-        define('SERVER', 'ovh1.clusters.zeabur.com');
+        define('SERVER', 'udn.czkek0iasari.sa-east-1.rds.amazonaws.com');
         define('DB_NAME', 'udn');
         define('USER', 'root');
-        define('PASSWORD', 'fOxvR4c9TM80NIqbHm2p3QFDiV15aj67');
-        define('PORT', '32473');  // Puerto definido
+        define('PASSWORD', 'Thiago2002');
+        define('PORT', '3306');  // Puerto definido
 
         $options = array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8');
 
