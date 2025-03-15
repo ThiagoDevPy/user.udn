@@ -130,7 +130,7 @@ if (!isset($_SESSION['user_id'])) {
         <h3 class="text-center mb-4">Eventos Asistidos</h3>
          <h5 class="text-center mb-4">
             Se muestran los Eventos a partir de 2025. Los eventos de 2023 a 2024 se encuentran 
-            <a href="/certificado">Aquí</a>.
+            <a href="certificado.php">Aquí</a>.
             </h5>
         <div class="alert alert-info mt-4" style="max-width: 700px; margin:20px auto;">
             <strong>Hora de Extension Total: <span class="hidden-xs" id="totalhoraexten"></span></strong>

@@ -17,9 +17,9 @@ if (!isset($_SESSION['user_id'])) {
 // Conectar a la base de datos
 class Conne {
     public static function connect() {
-        define('SERVER', 'udn.czkek0iasari.sa-east-1.rds.amazonaws.com');
+        define('SERVER', '192.168.0.10');
         define('DB_NAME', 'udn');
-        define('USER', 'admin');
+        define('USER', 'usuario');
         define('PASSWORD', 'Thiago2002');
         define('PORT', '3306');  // Puerto definido
 
