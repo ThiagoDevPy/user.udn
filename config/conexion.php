@@ -1,12 +1,11 @@
 <?php
 include "database.php";
 // Configuración de la base de datos
-$host = 'udn.czkek0iasari.sa-east-1.rds.amazonaws.com';
-$port = '3308';
-$user = 'admin';
+$host = '192.168.0.5';
+$port = '3306';
+$user = 'root';
 $pass = 'Thiago2002';
 $dbname = 'udn';
-
 
 
 try {

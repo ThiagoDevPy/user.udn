@@ -138,7 +138,7 @@ if (!isset($_SESSION['user_id'])) {
     <div class="container py-5">
         <div class="row">
             <div class="d-flex align-items-center justify-content-center">
-                <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="img/icono.ico" aria-label="Bootstrap">
+                <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="../img/icono.ico" aria-label="Bootstrap">
                     <img src="../img/icono.ico" class="img-thumbnail" alt="...">
                 </a>
                 
